@@ -8,7 +8,7 @@ import Rightbar from "./components/Rightbar";
 import Add from "./components/Add";
 
 function App() {
-  const [mode, setmode] = React.useState("dark");
+  const [mode, setmode] = React.useState("light");
 
   const darkmode = createTheme({
     palette: {
